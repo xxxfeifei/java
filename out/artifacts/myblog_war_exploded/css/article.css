@@ -1,0 +1,30 @@
+body{
+    background: url('../img/qian.jpg') no-repeat;
+    background-size: 100% auto;
+}
+#title{
+    height: 30px;
+    border: 0;
+    width: 70%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #00000060;
+}
+#text{
+    height: 400px;
+    width: 70%;
+    text-align: left;
+    background-color: #00000060;
+    border: 0;
+}
+
+#inputBox{
+    width: 70%;
+    height: 500px;
+    /*background-color: #00000060;*/
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px 50px;
+}

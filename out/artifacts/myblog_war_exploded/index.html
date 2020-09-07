@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <!--<script type="text/javascript" src ="jequry/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/myblog/css/page.css">
+</head>
+
+<body>
+<div id="login_box">
+    <form action="http://localhost:8080/myblog/userServlet" method="post">
+        <input type="hidden" name="action" value="login">
+    <h2>LOGIN</h2>
+    <div id="form">
+        <div id="input_box">
+            <input id="username" name="username" type="text" placeholder="Username">
+        </div>
+        <div class="errorMsg" id="errorMsgU"></div>
+        <div id="input_box">
+            <input id="password" name="password" type="password" placeholder="Password">
+        </div>
+        <div class="errorMsg" id="errorMsgP"></div>
+    </div>
+        <div class="errorMsg" id="errorMsg"></div>
+        <input type="submit" value="登录" id="sub_btn"/>
+    </form>
+    <br>
+    <div id="sign_up">
+        <a id="a" href="http://localhost:8080/myblog/html/regiset.html">注册</a>
+
+
+    </div>
+
+</div>
+</body>
+
+</html>

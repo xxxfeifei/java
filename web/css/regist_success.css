@@ -1,0 +1,25 @@
+body{
+    background: url('../img/tree.jpg') no-repeat;
+    background-size: 100% auto;
+}
+div{
+    width: 20%;
+    height: 400px;
+    /*background-color: #00000060;*/
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+a{
+    margin-top: 50px;
+    width: 80%;
+    height: 70px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    font-size: 25px;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    cursor: pointer;
+}

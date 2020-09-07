@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <script type="text/javascript" src ="http://localhost:8080/myblog/jequry/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://localhost:8080/myblog/js/regist.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/myblog/css/page.css">
+</head>
+
+<body>
+<div id="login_box">
+
+    <form action="http://localhost:8080/myblog/userServlet" method="post">
+        <input type="hidden" name="action" value="regist">
+    <h2>LOGIN</h2>
+    <div id="form">
+        <div id="input_box">
+            <input id="username" name="username" type="text" placeholder="用户名">
+        </div>
+        <div class="errorMsg" id="errorMsgU"></div>
+        <div id="input_box">
+            <input id="password" name="password" type="password" placeholder="密码">
+        </div>
+        <div class="errorMsg" id="errorMsgP"></div>
+        <div id="input_box">
+            <input id="repwd" type="password" placeholder="确认密码">
+        </div>
+        <div class="errorMsg" id="errorMsgR"></div>
+        <div id="input_box">
+            <input id="email" name="email" type="text" placeholder="邮箱">
+        </div>
+        <div class="errorMsg" id="errorMsgE"></div>
+
+    </div>
+        <input type="submit" value="注册" id="sub_btn"/>
+    </form>
+    <br>
+</div>
+</body>
+
+</html>

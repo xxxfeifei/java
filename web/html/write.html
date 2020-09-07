@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>写博客</title>
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/myblog/css/write.css">
+</head>
+<body>
+<div id="inputBox">
+    <form action="http://localhost:8080/myblog/blogServlet" method="post">
+        <input type="hidden" name="action" value="publish">
+    <input type="text" id="title" name="title" placeholder="标题"><br/><br/>
+    <textarea id="text" name="text" placeholder="正文"></textarea>
+        <input id="sub_btn" type="submit" value="发表">
+    </form>
+</div>
+</body>
+</html>
